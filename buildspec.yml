@@ -1,0 +1,100 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - apt-get update -y
+      - apt-get install -y build-essential
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling the C++ code...
+      # - c++ hello.cpp -o hello.out     ########
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:  
+  files: 
+    - '**/*'
+
+
+
+    #########################################
+# https://docs.aws.amazon.com/codebuild/latest/userguide/sample-pipeline-multi-input-output.html
+#     version: 0.2
+# phases:
+#   pre_build:
+#     commands:
+#       - echo Nothing to do in the pre_build phase...
+#   build:
+#     commands:
+#       - npm install
+#       - npm run build
+#   post_build:
+#     commands:
+#       - echo Build completed on
+# artifacts:
+#   files:
+#     - appspec.yml
+#     - build/*
+
+# artifacts:
+#   files:
+#     - build/libs/*.jar
+
+#     artifacts:
+#      files:
+#        -'FileNameWithPath'
+
+#   artifacts:
+#   files:
+#     - appspec.yml
+#     - target/SampleMavenTomcatApp.war
+#     - scripts/*
+
+# version: 0.1
+
+# phases:
+#   build:
+#     commands:
+#       - echo `$BUILD_COMMAND`
+
+# artifacts:
+#   discard-paths: yes
+#   files:
+#     - MyApp        
+
+# version: 0.1
+
+# phases:
+#   build:
+#     commands:
+#       - echo `$BUILD_COMMAND`
+
+# artifacts:
+#   discard-paths: yes
+#   files:
+#     - MyApp    
+
+# artifacts:
+#   files:
+#     - build/libs/*.jar
+
+#  version: 0.2
+# phases:
+#   pre_build:
+#     commands:
+#       - echo Nothing to do in the pre_build phase...
+#   build:
+#     commands:
+#       - npm install
+#       - npm run build
+#   post_build:
+#     commands:
+#       - echo Build completed on
+# artifacts:
+#   files:
+#     - appspec.yml
+#     - build/*
+
+
