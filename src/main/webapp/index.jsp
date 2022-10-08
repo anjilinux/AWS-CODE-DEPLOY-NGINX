@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@rritsoft 
-rritsoft
-/
-war.com.hp-anji
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-war.com.hp-anji/src/main/webapp/index.jsp
-@rritsoft
-rritsoft big code
-Latest commit ba27106 16 days ago
- History
- 1 contributor
-1964 lines (1471 sloc)  94.8 KB
-
 <!DOCTYPE HTML>
 <!-- This is how HTML comments look like -->
 <html>
@@ -1991,17 +1962,3 @@ Another topic about the main topic, for example, if the topic is Java, this coul
 
 
 </html>
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
